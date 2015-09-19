@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"/>
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"/>
+    <TextView
+        android:id="@+id/tvlast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"/>
+    <TextView
+        android:id="@+id/tvgender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"/>
+    <TextView
+        android:id="@+id/tvweight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"/>
+    <TextView
+        android:id="@+id/tvheight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"/>
+    <TextView
+        android:id="@+id/tvbirthday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"/>
+
+
+
+
+</LinearLayout>

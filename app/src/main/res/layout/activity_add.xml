@@ -1,0 +1,81 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.contacts.com.contacts.ContactFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeFragment">
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtName"
+                android:hint="Name"
+                android:maxLength="25"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textPersonName"
+                android:layout_span="2"/>
+            <EditText
+                android:id="@+id/txtLast"
+                android:hint="Last Name"
+                android:maxLength="25"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textPersonName"
+                android:layout_span="2"/>
+            <EditText
+                android:id="@+id/txtGender"
+                android:hint="Gender"
+                android:maxLength="25"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textPersonName"
+                android:layout_span="2"/>
+            <EditText
+                android:id="@+id/txtWeight"
+                android:hint="Weight"
+                android:maxLength="10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="numberDecimal"
+                android:layout_span="2"/>
+            <EditText
+                android:id="@+id/txtHeight"
+                android:hint="Height"
+                android:maxLength="10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="numberDecimal"
+                android:layout_span="2"/>
+            <EditText
+                android:id="@+id/txtBirthday"
+                android:hint="MM/DD/YYYY"
+                android:maxLength="10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="date"
+                android:layout_span="2"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Add"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
